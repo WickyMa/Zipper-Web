@@ -1742,8 +1742,7 @@ body.lightbox-open {
     margin: 0 0 1rem;
 }
 
-.closing-stamp {
-    margin-top: 2rem;
+.archive-stamp {
     padding: 1rem;
     border: 2px solid var(--archive-red);
     text-align: center;
@@ -1753,14 +1752,22 @@ body.lightbox-open {
     opacity: 0.7;
 }
 
-.closing-stamp span:first-child {
+.archive-stamp--open {
+    margin: 0 0 1.25rem;
+}
+
+.archive-stamp--closed {
+    margin-top: 2rem;
+}
+
+.archive-stamp span:first-child {
     font-size: 0.72rem;
     letter-spacing: 5px;
     color: var(--archive-red);
     font-weight: 700;
 }
 
-.closing-stamp span:last-child {
+.archive-stamp span:last-child {
     font-size: 0.78rem;
     color: var(--archive-muted);
     letter-spacing: 2px;
