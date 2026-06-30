@@ -1560,6 +1560,126 @@ body.lightbox-open {
     font-weight: 600;
 }
 
+/* ── 运动鞋紧固件对照卡 ── */
+
+.fastener-compare {
+    margin-top: 1.25rem;
+    background: var(--archive-paper);
+    border: 1px solid var(--archive-line);
+    padding: 1rem 1rem 0.85rem;
+}
+
+.fastener-compare__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 0.75rem;
+    padding-bottom: 0.65rem;
+    margin-bottom: 0.85rem;
+    border-bottom: 1px solid var(--archive-line);
+}
+
+.fastener-compare__tag {
+    font-family: monospace;
+    font-size: 0.62rem;
+    letter-spacing: 1.5px;
+    color: var(--archive-red);
+    font-weight: 600;
+}
+
+.fastener-compare__title {
+    font-family: var(--font-serif);
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--archive-ink);
+}
+
+.fastener-compare__group + .fastener-compare__group {
+    margin-top: 1rem;
+    padding-top: 0.85rem;
+    border-top: 1px dashed var(--archive-line);
+}
+
+.fastener-compare__group-title {
+    font-family: var(--font-serif);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--archive-red);
+    margin: 0 0 0.65rem;
+    letter-spacing: 0.5px;
+}
+
+.fastener-compare__topic + .fastener-compare__topic {
+    margin-top: 0.75rem;
+}
+
+.fastener-compare__topic-title {
+    font-size: 0.74rem;
+    font-weight: 600;
+    color: var(--archive-ink);
+    margin: 0 0 0.4rem;
+    letter-spacing: 0.5px;
+}
+
+.fastener-compare__scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.fastener-compare table {
+    width: 100%;
+    min-width: 520px;
+    border-collapse: collapse;
+    font-size: 0.74rem;
+    line-height: 1.55;
+}
+
+.fastener-compare th,
+.fastener-compare td {
+    padding: 0.45rem 0.5rem;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid var(--archive-line);
+}
+
+.fastener-compare th {
+    width: 33.33%;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--archive-muted);
+    background: rgba(122, 35, 24, 0.06);
+}
+
+.fastener-compare td {
+    color: var(--archive-ink);
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.fc-pro,
+.fc-con {
+    display: block;
+}
+
+.fc-pro + .fc-con {
+    margin-top: 0.35rem;
+    padding-top: 0.35rem;
+    border-top: 1px dotted var(--archive-line);
+}
+
+.fc-con {
+    font-size: 0.7rem;
+    color: var(--archive-muted);
+    line-height: 1.5;
+}
+
+.fc-con::before {
+    content: '局限 · ';
+    color: var(--archive-red);
+    font-size: 0.62rem;
+    letter-spacing: 0.5px;
+}
+
 /* ── 示意图 ── */
 
 .diagram-svg {
